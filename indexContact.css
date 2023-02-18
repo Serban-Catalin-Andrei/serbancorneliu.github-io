@@ -1,0 +1,341 @@
+* {
+	box-sizing: border-box;
+}
+  
+html, body {
+	width: 100%;
+	height:100%;
+  }
+  
+  body {
+	  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	  background-size: 400% 400%;
+	  animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+	  0% {
+		  background-position: 0% 50%;
+	  }
+	  50% {
+		  background-position: 100% 50%;
+	  }
+	  100% {
+		  background-position: 0% 50%;
+	  }
+  }
+
+
+  
+
+  /* Javascript Ineceputttttttttttttttttttttttttttttttttttttttttttt */
+  
+  /* Style the top navigation bar */
+  .topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+  
+  /* Style the topnav links */
+.topnav a {
+	float: left;
+	display: block;
+	color: #d1e708;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+  
+  /* Change color on hover */
+  .topnav a:hover {
+	background-color: #4CAF50;
+	color: black;
+}
+ /*End nav Bar*/
+
+
+/*Start Footer*/
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #a7a7a7;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #d1e708;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #0066a4;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+  /*Footer end*/
+
+
+
+  section {
+	height: 100vh;
+	width: 100%;
+	background-color: aliceblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  }
+  .container {
+	width: 90%;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	box-shadow: 0px 0px 20px #00000010;
+	background-color: white;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+  }
+  .form-group {
+	width: 100%;
+	margin-top: 20px;
+	font-size: 20px;
+  }
+  .form-group input,
+  .form-group textarea {
+	width: 100%;
+	padding: 5px;
+	font-size: 18px;
+	border: 1px solid rgba(128, 128, 128, 0.199);
+	margin-top: 5px;
+  }
+  
+  textarea {
+	resize: vertical;
+  }
+  button[type="submit"] {
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 20px;
+	font-size: 24px;
+	border-radius: 8px;
+	font-family: "Montserrat";
+	color: rgb(27, 166, 247);
+	text-align: center;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: 0.3s ease background-color;
+  }
+  button[type="submit"]:hover {
+	background-color: rgb(214, 226, 236);
+  }
+  #status {
+	width: 90%;
+	max-width: 500px;
+	text-align: center;
+	padding: 10px;
+	margin: 0 auto;
+	border-radius: 8px;
+  }
+  #status.success {
+	background-color: rgb(211, 250, 153);
+	animation: status 4s ease forwards;
+  }
+  #status.error {
+	background-color: rgb(250, 129, 92);
+	color: white;
+	animation: status 4s ease forwards;
+  }
+  @keyframes status {
+	0% {
+	  opacity: 1;
+	  pointer-events: all;
+	}
+	90% {
+	  opacity: 1;
+	  pointer-events: all;
+	}
+	100% {
+	  opacity: 0;
+	  pointer-events: none;
+	}
+  }
+  
+/* Content Scroll Buton Start*/
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: #4CAF50!important;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+	background-color: #555;
+  }
+
+
+/*Content Scroll Buton End*/
+
+  

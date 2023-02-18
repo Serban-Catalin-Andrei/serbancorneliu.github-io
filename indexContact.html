@@ -1,0 +1,144 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Menuisier Hamme | Serban Corneliu : menuiserie et ébénisterie</title>
+        <link rel="shortcut icon" href="https://www.serbancorneliu.be/smarty/wireframe28/media/images/favicon.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="footer, address, phone, icons" />
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="indexContact.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="IndexAccueil.html">Accueil</a>
+            <a href="indexMenuiserie.html">Menuiserie</a>
+            <a href="indexGalerie.html">Galerie</a>
+            <a href="indexContact.html" style="float:right">Contact</a>
+        </div> 
+        <!--EMAIL SEND Start javascript-->
+  <div class="container">
+    <form action="https://formspree.io/f/xgedkekw" method="POST" id="my-form">
+
+      <div class="form-group">
+        <label for="firstName"> First Name</label>
+        <input type="text" id="firstName" name="firstName">
+      </div>
+
+      <div class="form-group">
+        <label for="latsName">Last Name</label>
+        <input type="text" id="lastName" name="lastName">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+      </div>
+
+      <div class="form-group">
+        <label for="massage">Massage</label>
+        <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div id="status"></div>
+</section>
+
+        <script> src="E-mailSend.js"</script>
+
+<!--EMAIL SEND END javascript -->
+          <!--Googel maps -->
+          <div style="width: 100%"><iframe width="100%" height="600" frameborder="90" scrolling="no" marginheight="90" marginwidth="90" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.4093610580867!2d4.142499316775593!3d51.10090694816213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c391ff2d466bb1%3A0x8b054ab1af7dfcc1!2sBiezestraat%2024%2C%209220%20Hamme!5e0!3m2!1sen!2sbe!4v1653705553213!5m2!1sen!2sbe"></iframe></div>
+          <!--Google maps end-->
+
+          <!--Scroll Back To Top Button-->
+         <button onclick="topFunction()" id="myBtn" title="Go to top">Haut</button>
+         <!--Scroll Back To Top Button End-->
+
+         <!--Scroll Back to Top JavaScript Content-->
+         <script>
+          //Get the button
+          var mybutton = document.getElementById("myBtn");
+          
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function() {scrollFunction()};
+          
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              mybutton.style.display = "block";
+            } else {
+              mybutton.style.display = "none";
+            }
+          }
+          
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+          </script>
+          <!--Scrool Back to top JavaScript End content-->
+
+        
+        
+          <!--Footer designe-->
+          <footer class="footer-distributed">
+      
+            <div class="footer-left">
+      
+              <h3>Serban<span>Corneliu</span></h3>
+      
+              <p class="footer-links">
+                <a href="IndexAccueil.html">Accueil</a>
+                ·
+                <a href="indexMenuiserie.html">Menuiserie</a>
+                ·
+                <a href="indexGalerie.html">Galerie</a>
+                ·
+                <a href="indexContact.html">Contact</a>
+              </p>
+      
+              <p class="footer-company-name">&copy; 2023 - Serban-Corneliu. All rights reserved.</p>
+            </div>
+      
+            <div class="footer-center">
+      
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Hamme (O-VL.)</span>Biezestraat 24</p>
+              </div>
+      
+              <div>
+                <i class="fa fa-phone"></i>
+                <p>0466 39 25 19</p>
+              </div>
+      
+              <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:info.serbancorneliu.be" class="adwconversion_email" data-adwconversion="info.serbancorneliu.be">info.serbancorneliu.be</a></a></p><br />
+                <h3>TVA:<span>BE 0835.557.010</span></h3>
+              </div>
+      
+            </div>
+      
+            <div class="footer-right">
+      
+              <p class="footer-company-about">
+                <span>À propos de l'entreprise</span>
+                Je travaille de manière indépendante pour certaines entreprises, et avec plus de 44 ans d'expérience en menuiserie! Avec moi, vous irez au succès!
+              </p>
+      
+              <div class="footer-icons">
+                <a href="https://www.facebook.com/people/Corneliu-Serban/100007526142475"><i class="fa fa-facebook"></i></a>
+                <a href="https://be.linkedin.com/in/serban-corneliu-018b06170"><i class="fa fa-linkedin"></i></a>
+              </div>
+      
+            </div>
+      
+          </footer>
+          <!--Footer End-->  
+    </body>
+</html>
